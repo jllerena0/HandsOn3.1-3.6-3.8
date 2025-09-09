@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Embedded Styles with Fonts</title>
+  <title>Embedded Styles with Company Class</title>
   <style>
     body { 
       background-color: #E2FFFF; 
@@ -22,6 +22,12 @@
     p {
       font-size: 16px;
     }
+  
+    .company { 
+      font-weight: bold; 
+      font-family: Georgia, "Times New Roman", serif; 
+      font-size: 1.25em; 
+    }
   </style>
 </head>
 <body>
@@ -37,11 +43,11 @@
   </header>
 
   <main>
-    <h2>Section One</h2>
-    <p>This is the first section of the page with the new sans-serif font.</p>
+    <h2>Our Company</h2>
+    <p><span class="company">Trillium Media Design</span> will bring innovative solutions to your business through professional web and media design services.</p>
 
     <h2>Section Two</h2>
-    <p>This is the second section of the page, also using the new font.</p>
+    <p>This section continues with standard text using the default sans-serif font.</p>
 
     <ul>
       <li>First item</li>
@@ -55,4 +61,5 @@
   </footer>
 </body>
 </html>
+
 
